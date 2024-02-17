@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAGLAB</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #B4C6E7;
+        }
+
+        @media (max-width: 600px) {
+            /* Estilos para pantallas con un ancho máximo de 600px */
+            th, td {
+                padding: 4px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+
+        #capturarTabla {
+            background-color: #060f8d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2> Costeo de Items </h2>
+
+    <table id="miTabla">
+        <thead>
+            <tr>
+                <th> Precio Sugerido </th>
+                <td><input type="text" id="psugerido"></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th> ITEMS </th>
+                <th> CANTIDAD </th>
+                <th> VALOR </th>
+            </tr>
+            <tr>
+                <td> <input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" id="valor1"></td>
+            </tr>
+            <tr>
+                <td> <input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" id="valor2"></td>
+            </tr>
+            <tr>
+                <td> <input type="text" name="" id=""></td>
+                <td><input type="text"></td>
+                <td><input type="text" id="valor3"></td>
+            </tr>
+            <tr>
+                <td> <input type="text" name="" id=""></td>
+                <td><input type="text"></td>
+                <td><input type="text" id="valor4"></td>
+            </tr>
+            <tr>
+                <td> <input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" id="valor5"></td>
+            </tr>
+            <tr>
+                <td> <input type="text"</td>
+                <td><input type="text"></td>
+                <td><input type="text" id="valor6"></td>
+            </tr>
+            <tr>
+                <td> <input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" id="valor7"></td>
+            </tr>
+            <tr>
+                <td> <input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" id="valor8"></td>
+            </tr>
+            <tr>
+                <td> <input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text" id="valor9"></td>
+            </tr>
+            <tr>
+                <th> Total Costo </th>
+                <td style="background-color:#B4C6E7;"><input type="text" name="" id="pcosto"></td>
+                <td style="background-color:#B4C6E7;"><input type="text" id="totalCosto"></td>
+            </tr>
+            <tr>
+                <td> Comisión </td>
+                <td> <input type="text" id="pcomision"></td>
+                <td> <input type="text" id="comision"></td>
+            </tr>
+            <tr>
+                <td> Factura </td>
+                <td> <input type="text" id="pfactura"></td>
+                <td> <input type="text" id="factura"></td>
+            </tr>
+            <tr>
+                <td> G. Adm </td>
+                <td> <input type="text" id="padm" value="0.00%"></td>
+                <td> <input type="text" id="adm" value="0.00"></td>
+            </tr>
+            <tr>
+                <td> Margen </td>
+                <td> <input type="text" id="margenp"></td>
+                <td> <input type="text" id="margen"></td>
+            </tr>
+            <tr>
+                <th> P. PUBLICO </th>
+                <td style="background-color:#B4C6E7;"><input type="text" id="pmargen" value="100.00%"></td>
+                <td style="background-color:#B4C6E7;"><input type="text" id="preciop"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="capturarTabla">Capturar tabla</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
