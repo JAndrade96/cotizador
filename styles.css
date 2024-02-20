@@ -1,15 +1,2 @@
-table {
-    width: 100%;
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-  
-  thead th {
-    background-color: #f0f0f0;
-    font-weight: bold;
-  }
-  
-  tbody td {
-    padding: 5px;
-  }
+
   
